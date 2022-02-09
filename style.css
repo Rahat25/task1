@@ -1,0 +1,82 @@
+.body #whole {
+  background: grey;
+
+  min-height: 100vh;
+}
+.container {
+  margin: 4em 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.container div {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.993);
+  padding: 20px 80px;
+}
+
+#sub-title {
+  background-color: hsl(228, 45%, 44%);
+}
+#why-title {
+  background-color: hsl(228, 45%, 44%);
+}
+#sub-title button {
+  font-size: 30px;
+  margin-left: 50px;
+
+  box-sizing: 5px;
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.972);
+  background: yellowgreen;
+  border-radius: 5px;
+}
+#join-title h1 {
+  color: rgb(135, 235, 227);
+  margin: 1em;
+}
+#join-title h2 {
+  color: greenyellow;
+  margin: 1em;
+}
+#join-title p {
+  color: gray;
+  margin: 1em;
+}
+#sub-title h1 {
+  color: antiquewhite;
+  text-transform: capitalize;
+  margin: 1em;
+}
+#sub-title h2 {
+  color: whitesmoke;
+  margin: 1em;
+}
+#sub-title p {
+  color: rgba(255, 255, 255, 0.945);
+  margin: 1em;
+}
+#why-title {
+  color: white;
+}
+@media screen and (min-width: 576px) {
+  #join-title {
+    flex: 1 0 calc(100% - 20px);
+  }
+  #sub-title {
+    flex: 1 0 auto;
+  }
+  #why-title {
+    flex: 1 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

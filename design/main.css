@@ -1,0 +1,58 @@
+.body {
+  background: whitesmoke;
+}
+.join {
+  border: 2px solid black;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header {
+  color: blue;
+  font-size: 40px;
+  margin: 20px;
+  text-transform: capitalize;
+}
+.title {
+  color: chartreuse;
+  margin: 20px;
+}
+.text {
+  color: darkgray;
+  margin: 20px;
+}
+.subs {
+  border: black;
+  background: rgba(135, 178, 235, 0.705);
+  width: 100%;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-align: center;
+}
+.subs-title {
+  font-size: 30px;
+  color: white;
+}
+button {
+  font-size: 30px;
+  margin: 0.5em;
+  box-sizing: 20px;
+  padding: 10px 80px;
+  color: whitesmoke;
+  background: yellowgreen;
+  border-radius: 5px;
+}
+.why {
+  background: rgba(135, 203, 235, 0.938);
+  border: black;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  #boxs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
